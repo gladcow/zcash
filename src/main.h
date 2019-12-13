@@ -118,6 +118,8 @@ static const bool DEFAULT_TXINDEX = false;
 static const unsigned int DEFAULT_BANSCORE_THRESHOLD = 100;
 
 static const bool DEFAULT_TESTSAFEMODE = false;
+/** Default for -nurejectoldversions */
+static const bool DEFAULT_NU_REJECT_OLD_VERSIONS = true;
 
 // Sanity check the magic numbers when we change them
 BOOST_STATIC_ASSERT(DEFAULT_BLOCK_MAX_SIZE <= MAX_BLOCK_SIZE);
