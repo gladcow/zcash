@@ -114,6 +114,8 @@ static const bool DEFAULT_TXINDEX = false;
 static const unsigned int DEFAULT_BANSCORE_THRESHOLD = 100;
 
 static const bool DEFAULT_TESTSAFEMODE = false;
+/** Default for -nurejectoldversions */
+static const bool DEFAULT_NU_REJECT_OLD_VERSIONS = true;
 
 #define equihash_parameters_acceptable(N, K) \
     ((CBlockHeader::HEADER_SIZE + equihash_solution_size(N, K))*MAX_HEADERS_RESULTS < \
